@@ -44,8 +44,7 @@
 // MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
 // See the Mulan PSL v2 for more details.
 
-`include "register.sv"
-`include "plic_define.sv"
+`include "plic_define.svh"
 
 module prio_tree #(
     parameter int LOW_IDX = 0,

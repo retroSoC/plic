@@ -44,9 +44,7 @@
 // MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
 // See the Mulan PSL v2 for more details.
 
-`include "register.sv"
-`include "edge_det.sv"
-`include "plic_define.sv"
+`include "plic_define.svh"
 
 module plic_gateway (
     input  logic                       clk_i,
